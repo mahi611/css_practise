@@ -1,6 +1,17 @@
-div{
+*{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+p{
+    background-color: pink;
+}
+
+#di{
     width: 100px;
     height: 100px;
+    background-color: black;
     background-image: url('car.jpg');
     background-size: cover;
     color: white;
@@ -9,3 +20,4 @@ div{
     right: 0px;
     top: 500px;
 }
+
