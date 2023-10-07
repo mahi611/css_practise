@@ -1,0 +1,90 @@
+code editor:- VS code
+
+web development:- 
+1.HTML:-Structure or layout
+2.CSS:- Styling
+3.JAVA SCRIPT:- Logic and functionality
+
+CSS(CASCADING STYLE SHEET):-
+
+LEVEL-1: BASICS OF CSS
+
+    =>It is a language that is used t odescribe the style of a document.
+
+syntax:-    
+        h1{
+            color:red;
+        }
+        here h1 is selecor and color is property and red is value and ; is line terminator
+
+including style:-adding style to html
+    1.inline:-in the tags only
+    2.<style> tag:- this tag is written in head tag
+                <style></style>
+    3.from external css file and linking to html file
+
+priority of including styles:- inline>external style>style tag
+
+*color property:- used to set the color of foreground;
+    eg:- color:green;
+         color:red;
+         color:blue;
+
+*background color:- use to set the color of background
+    eg:- background-color : red;
+         background-color : blue;
+
+*color systems:-
+    1.RGB system:-this will generate color by mixing three colors red,green,blue by setting it's quantities
+        eg:-  color: rgb(12,45,245);
+              background-color: rgb(48,96,48);
+    2.Hex system:- with hexa decimal we represent about three colors
+        eg:-  color: #ff0000;
+              background-color: #01ff03;
+
+*selectors:-
+    1.univeral selector:- applies to all the document
+            eg:- *{}
+    2.Element selector:- applies to selected Elements like headings,button,p,a etc..
+            eg:- h1{}
+    3.ID Selector:- by selecting the id's of the elements
+            eg:- #myId{}
+    4.Class Selctor:- by selcting teh classes
+            eg:- .class{}
+    *selector will works commas also
+        eg:- h1,h2,h3{}
+
+*for comments in css:- ctrl+/
+**priority after change>before change
+
+*Text Properties:-
+    1.text-align:left/right/center
+        this works on the base in the parent child
+    2.text-decoration:-underline/overline/line-through/none.
+    3.font-weight:normal/bold/bolder/lighter/100-900.
+    4.font-familt:aril etc.. it is the style of the font
+
+*Units in CSS:-
+    (Absolute)
+    1.pixels(px):-
+        1inch=96px
+       eg:- font size=25px;
+
+*line-height:-
+    line-height:2px;
+    line-height:normal;
+
+*text-transform:-uppercase/lowercase/capitailze/none
+
+*level-2
+Box Model in CSS.
+
+
+
+
+sites:-
+  *color picker:- for gitting thr rbg and hex values of colors
+  *color palette:- for getting group of similar and suitable colors
+  *canva:- same as color palettes
+  *mdn:-for css doubts
+
