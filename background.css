@@ -1,6 +1,6 @@
 div{
-    width: 100px;
-    height: 100px;
+    width: 500px;
+    height: 500px;
     border: 2px solid black;
     display: inline-block;
 }
@@ -21,7 +21,11 @@ div{
     background-image: url("car.jpg");
     background-size: auto;
 }
+#box5{
+    background-image: url('car.jpg');
+    background-size: cover
+}
 body{
     background-image: url("car.jpg");
-    background-size: cover;
+    background-size: contain
 }
